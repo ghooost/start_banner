@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  .banner-300x600 {
+    width:300px;
+    height:600px;
+    overflow:hidden;
+    background:#ffffff;
+    cursor:pointer;
+    position:relative;
+    border:1px solid black;
+    box-sizing: border-box;
+  }
+  .banner-300x600 canvas {
+    position:absolute;
+  }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.6/pixi.min.js"></script>
+</head>
+<body>
+  <div class="banner-300x600" onclick="return window.open(window.clickTag, '_blank')"></div>
+  <script src="banner.js"></script>
+</body>
+</html>
